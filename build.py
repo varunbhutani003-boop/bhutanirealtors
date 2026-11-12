@@ -54,6 +54,13 @@ NATURE = [
     ("peacock-emaar-marbella-gurugram", "Peacock Neighbours", "Peacocks stroll the garden walls of the community"),
     ("emaar-marbella-peacock-garden-wall", "Nature Next Door", "Green lawns minutes from Golf Course Extension Road"),
 ]
+CITY = [
+    ("gurugram-cyber-city-offices", "Offices nearby", "Gurugram's corporate towers, a short drive from Golf Course Extension Road (photo: Vishal Kumar / Unsplash)"),
+    ("gurugram-roads-at-night", "Well connected", "Gurugram's expressways and arterial roads at night (photo: Alok Sharma / Unsplash)"),
+    ("gurugram-skyline-sunset", "A growing city", "Sunset over Gurugram's skyline (photo: Arpit Rastogi / Unsplash)"),
+]
+INTERIOR = ("illustrative-builder-floor-interior", "Space to make your own",
+            "Illustrative interior styling only, not the actual unit, its finishes or specifications (photo: Spl Interiors / Unsplash)")
 PROGRESS = [
     ("plot-21-bhoomi-pujan-4-nov-2026", "4 November 2026", "Bhoomi Pujan at Plot 21"),
     ("plot-21-emaar-marbella-basement-excavation", "October 2026", "Basement excavation at Plot 21"),
@@ -160,7 +167,7 @@ def page(slug, title, description, body, h1, *, schema_extra=None, image=None, k
   <div class="wrap">
     <h2 id="visit">Book a private site visit</h2>
     <p>Only four homes will ever be available here. Call or WhatsApp to arrange a visit.</p>
-    <p class="cta"><a class="btn" href="{BIZ['wa_visit']}">WhatsApp {BIZ['phone']}</a> <a class="btn ghost" href="tel:{BIZ['tel']}">Call now</a> <a class="btn ghost" href="{BIZ['directions']}">Get directions</a></p>
+    <p class="cta"><a class="btn" href="#" onclick="brVisit(true);return false">Request a site visit</a> <a class="btn ghost" href="{BIZ['wa_visit']}">WhatsApp {BIZ['phone']}</a> <a class="btn ghost" href="tel:{BIZ['tel']}">Call now</a> <a class="btn ghost" href="{BIZ['directions']}">Get directions</a></p>
   </div>
 </section>
 <footer class="site">
@@ -184,7 +191,27 @@ def page(slug, title, description, body, h1, *, schema_extra=None, image=None, k
   </div>
   <div class="wrap fine">{esc(DISCLAIMER)}</div>
 </footer>
-<a class="wa-fab" href="{BIZ['wa_visit']}" aria-label="Chat on WhatsApp to book a site visit"><svg viewBox="0 0 32 32" width="26" height="26" aria-hidden="true"><path fill="currentColor" d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3zm0 23.6c-2 0-3.9-.5-5.6-1.5l-.4-.2-3.9 1 1-3.8-.3-.4A10.6 10.6 0 1 1 16 26.6zm5.8-7.9c-.3-.2-1.9-.9-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7 0a8.7 8.7 0 0 1-4.3-3.8c-.3-.6.3-.5.9-1.7.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4 3.6 3.6 0 0 0-1.1 2.7 6.3 6.3 0 0 0 1.3 3.3 14.4 14.4 0 0 0 5.5 4.9c2 .9 2.8.9 3.8.8.6-.1 1.9-.8 2.2-1.5s.3-1.3.2-1.5-.3-.2-.6-.4z"/></svg><span>Book a visit</span></a>
+<a class="wa-fab" href="{BIZ['wa_visit']}" onclick="brVisit(true);return false" aria-label="Chat on WhatsApp to book a site visit"><svg viewBox="0 0 32 32" width="26" height="26" aria-hidden="true"><path fill="currentColor" d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3zm0 23.6c-2 0-3.9-.5-5.6-1.5l-.4-.2-3.9 1 1-3.8-.3-.4A10.6 10.6 0 1 1 16 26.6zm5.8-7.9c-.3-.2-1.9-.9-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7 0a8.7 8.7 0 0 1-4.3-3.8c-.3-.6.3-.5.9-1.7.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4 3.6 3.6 0 0 0-1.1 2.7 6.3 6.3 0 0 0 1.3 3.3 14.4 14.4 0 0 0 5.5 4.9c2 .9 2.8.9 3.8.8.6-.1 1.9-.8 2.2-1.5s.3-1.3.2-1.5-.3-.2-.6-.4z"/></svg><span>Book a visit</span></a>
+<div class="visit" id="visit-box" role="dialog" aria-labelledby="vb-h" hidden>
+  <div class="visit-top"><p id="vb-h">Request a site visit</p><button type="button" class="visit-x" aria-label="Close" onclick="brVisit(false)">&times;</button></div>
+  <form onsubmit="return brSend(event)">
+    <label for="vb-name">Your name</label><input id="vb-name" autocomplete="name" required>
+    <label for="vb-day">Preferred day</label>
+    <select id="vb-day"><option>This weekend</option><option>A weekday</option><option>Next week</option><option>Any day, please call me</option></select>
+    <label for="vb-time">Preferred time</label>
+    <select id="vb-time"><option>Morning</option><option>Afternoon</option><option>Evening</option></select>
+    <label for="vb-msg">Anything you'd like to know (optional)</label><textarea id="vb-msg" rows="3" placeholder="e.g. which floor, parking, possession"></textarea>
+    <button type="submit" class="btn">Send on WhatsApp</button>
+    <p class="visit-alt">WhatsApp opens with your request ready to send to {BIZ['phone']}. Prefer to talk? <a href="tel:{BIZ['tel']}">Call us</a>.</p>
+  </form>
+</div>
+<nav class="mbar" aria-label="Quick contact"><a href="tel:{BIZ['tel']}">Call</a><a href="{BIZ['wa']}">WhatsApp</a><a href="#" onclick="brVisit(true);return false">Book a visit</a></nav>
+<script>
+function brVisit(o){{var d=document.getElementById('visit-box');d.hidden=!o;if(o)document.getElementById('vb-name').focus();}}
+function brSend(e){{e.preventDefault();var g=function(i){{return document.getElementById(i).value.trim();}};
+var t='Hi, I would like to book a site visit for the builder floors at Plot 21, Emaar Marbella.\\nName: '+g('vb-name')+'\\nPreferred: '+g('vb-day')+', '+g('vb-time')+(g('vb-msg')?'\\nQuestion: '+g('vb-msg'):'');
+window.open('{BIZ['wa']}?text='+encodeURIComponent(t),'_blank');return false;}}
+</script>
 </body>
 </html>
 """
@@ -224,6 +251,8 @@ def build_inner(slug, meta):
             schema.append({"@type": "FAQPage", "mainEntity": [
                 {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer",
                  "text": re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", a).strip()}} for q, a in faqs]})
+    if slug == "golf-course-extension-road-gurugram-guide":
+        extra_top = '<div class="gallery">' + "".join(fig(*g) for g in CITY) + "</div>"
     if slug == "emaar-marbella-builder-floors-construction-progress":
         extra_top = '<div class="gallery two">' + "".join(fig(*g) for g in PROGRESS) + "</div>"
     body = f"""<div class="wrap content">
@@ -252,7 +281,7 @@ def build_home():
     <p class="eyebrow">Luxury builder floors · Golf Course Extension Road</p>
     <h1>Where Gurugram's leaders will live</h1>
     <p class="lead">Four exclusive independent floors on a park-facing corner plot inside Emaar Marbella, a gated community in Sectors 65–66, Gurugram. Moments from Golf Estate and the city's newest corporate corridor, this is a rare chance to own one of only four homes in the building.</p>
-    <p class="cta"><a class="btn" href="{BIZ['wa_visit']}">Book a site visit</a> <a class="btn ghost" href="/emaar-marbella-builder-floors-gurugram">Project details &amp; FAQs</a></p>
+    <p class="cta"><a class="btn" href="#" onclick="brVisit(true);return false">Book a site visit</a> <a class="btn ghost" href="/emaar-marbella-builder-floors-gurugram">Project details &amp; FAQs</a></p>
   </div>
 </section>"""
     feats = [
@@ -280,6 +309,28 @@ def build_home():
     <h2 id="gal">Life in Emaar Marbella</h2>
     <p class="sub">Golf Course Extension Road, Sectors 65–66 · Next to Golf Estate · Gated, landscaped Emaar community</p>
     <div class="gallery">{gal}</div>
+  </div>
+</section>
+
+<section class="band" aria-labelledby="city">
+  <div class="wrap">
+    <h2 id="city">Gurugram on your doorstep</h2>
+    <p class="sub">Golf Course Extension Road links Emaar Marbella to Golf Course Road, Sohna Road and the Southern Peripheral Road, and on to the city's main office districts.</p>
+    <div class="gallery">{''.join(fig(*g) for g in CITY)}</div>
+    <p><a class="more" href="/golf-course-extension-road-gurugram-guide">Read the Golf Course Extension Road area guide</a></p>
+  </div>
+</section>
+
+<section class="band alt" aria-labelledby="own">
+  <div class="wrap two">
+    <div>
+      <h2 id="own">A whole floor, your way</h2>
+      <p>A builder floor gives one family an entire level of the building, with room to design the home around how you live. Each of the four floors at Plot 21 comes with parking in the basement and stilt level, inside a gated Emaar community with clubs, parks and peacocks for neighbours.</p>
+      <h3>How a site visit works</h3>
+      <ol class="steps"><li><strong>Message or call us</strong> with a day and time that suits you.</li><li><strong>We meet you at Emaar Marbella</strong> on Golf Course Extension Road and walk you through Plot 21 and the community.</li><li><strong>Ask us anything</strong>: floor plans, specifications, documents and timelines are shared during the visit.</li></ol>
+      <p class="cta"><a class="btn" href="#" onclick="brVisit(true);return false">Request a site visit</a></p>
+    </div>
+    {fig(*INTERIOR, cls="wide")}
   </div>
 </section>
 
