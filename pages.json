@@ -1,0 +1,36 @@
+{
+  "emaar-marbella-builder-floors-gurugram": {
+    "title": "Emaar Marbella Builder Floors, Sector 65-66 Gurugram | Bhutani Realtors",
+    "description": "Four independent builder floors on a park-facing corner plot in Emaar Marbella Phase-II, Sector 65-66, Golf Course Extension Road, Gurugram. Photos, location and FAQs.",
+    "lead": "Four independent floors on Plot 21, Emaar Marbella Phase-II, Golf Course Extension Road.",
+    "image": "/assets/img/emaar-marbella-topiary-lawns-sector-65.webp"
+  },
+  "emaar-marbella-builder-floors-construction-progress": {
+    "title": "Construction Progress: Plot 21, Emaar Marbella, Gurugram | Bhutani Realtors",
+    "description": "Dated construction updates with real site photos for four independent builder floors on Plot 21, Emaar Marbella Phase-II, Sector 65-66, Golf Course Extension Road.",
+    "lead": "Real photos from our own site, newest first.",
+    "type": "article",
+    "image": "/assets/img/plot-21-emaar-marbella-basement-excavation.webp"
+  },
+  "golf-course-extension-road-gurugram-guide": {
+    "title": "Golf Course Extension Road, Gurugram: Area Guide | Bhutani Realtors",
+    "description": "Golf Course Extension Road guide: connectivity, metro, schools, hospitals, offices and new developments around Sectors 58-67, Gurugram, and Emaar Marbella.",
+    "lead": "Connectivity, conveniences and what is being built along one of Gurugram's fastest-growing corridors.",
+    "type": "article",
+    "image": "/assets/img/golf-course-extension-road-aerial-view.webp"
+  },
+  "builder-floor-buying-checklist-gurugram": {
+    "title": "Buying a Builder Floor in Gurugram: Checklist | Bhutani Realtors",
+    "description": "What to check before buying a builder floor in Gurugram: title, sanctioned plan, occupation certificate, HRERA, land share, parking, maintenance and sale paperwork.",
+    "lead": "Documents and practical points to check before you commit.",
+    "type": "article",
+    "image": "/assets/img/emaar-marbella-lamp-lit-lanes-evening.webp"
+  },
+  "property-pulse": {
+    "title": "Gurugram Property Pulse: Golf Course Extension Road News | Bhutani Realtors",
+    "description": "Weekly Gurugram real-estate news: launches, infrastructure, office leasing and market data for Golf Course Extension Road and Gurugram, with sources.",
+    "lead": "Verified growth news for Gurugram and Golf Course Extension Road, with sources.",
+    "type": "article",
+    "image": "/assets/img/gurugram-skyline-palms-golf-course-extension-road.webp"
+  }
+}
