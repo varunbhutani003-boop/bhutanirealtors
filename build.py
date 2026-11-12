@@ -304,6 +304,20 @@ def build_home():
   </div>
 </section>
 
+<section class="band club-band" aria-labelledby="club">
+  <div class="wrap two">
+    <div>
+      <p class="eyebrow">Community update</p>
+      <h2 id="club">A new clubhouse for the Marbella community</h2>
+      <p>A dedicated residents' club for the Emaar Marbella community is under construction on Golf Course Extension Road, for Marbella residents only. Until it opens, and alongside it, residents already have access to the established Marbella Phase-1 villas club.</p>
+      <p>Emaar is still investing in the Marbella estate: public listings show a new 2026 launch, Marbella Terraces, on about 20 acres in Sector 66, registered with HRERA Gurugram (GM/1068/800/2026/40). A growing, well-kept community around Plot 21 is good news for every home in it.</p>
+      <p class="cta"><a class="btn" href="#" onclick="brVisit(true);return false">See the community on a site visit</a></p>
+      <p class="note">Clubhouse timelines and facilities are decided by the developer and may change.</p>
+    </div>
+    <div class="gallery two-up">{fig("emaar-marbella-villas-diwali-lights", "Life in Marbella", "The villa community, lit up for Diwali")}{fig("emaar-marbella-lamp-lit-lanes-evening", "Evening walks", "Lamp-lit lanes inside the gated community")}</div>
+  </div>
+</section>
+
 <section class="band alt" aria-labelledby="gal">
   <div class="wrap">
     <h2 id="gal">Life in Emaar Marbella</h2>

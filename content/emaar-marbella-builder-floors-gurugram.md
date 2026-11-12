@@ -10,7 +10,7 @@ Bhutani Realtors is offering four independent floors in a new building on Plot 2
 
 ## Why Emaar Marbella
 
-Emaar Marbella is a gated, landscaped Emaar community with lamp-lit, tree-lined avenues and villas. A residents' club for the Marbella community is under construction on Golf Course Extension Road, and residents also have access to the existing Marbella Phase-1 villas club. The community sits next to Golf Estate, close to Gurugram's growing corporate and office corridor, which makes it a natural address for senior professionals and business owners who want a quiet, secure neighbourhood within easy reach of work.
+Emaar Marbella is a gated, landscaped Emaar community with lamp-lit, tree-lined avenues and villas. A new residents' club for the Marbella community is under construction on Golf Course Extension Road, and residents also have access to the existing Marbella Phase-1 villas club. Emaar continues to invest in the estate, with Marbella Terraces in Sector 66 listed as a new 2026 launch (HRERA Gurugram registration GM/1068/800/2026/40). The community sits next to Golf Estate, close to Gurugram's growing corporate and office corridor, which makes it a natural address for senior professionals and business owners who want a quiet, secure neighbourhood within easy reach of work.
 
 ## Green, quiet and home to peacocks
 
