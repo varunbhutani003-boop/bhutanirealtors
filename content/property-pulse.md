@@ -10,7 +10,7 @@
 
 **Why it matters for Golf Course Extension Road:** Sector 59 sits on Golf Course Extension Road, so another listed developer launching there adds to the corridor's premium address, while new links into Cyber City make the office commute from the GCER side easier.
 
-Explore more: See the [luxury builder floors in Emaar Marbella, Sector 65 Gurugram](/emaar-marbella-builder-floors-gurugram), read our [Golf Course Extension Road area guide](/golf-course-extension-road-gurugram-guide), or book a private site visit via WhatsApp on +91-9611235897.
+Explore more: See the [luxury builder floors in Emaar Marbella, Sector 65 Gurugram](/emaar-marbella-builder-floors-gurugram), read our [Golf Course Extension Road area guide](/golf-course-extension-road-gurugram-guide), or book a private site visit via WhatsApp on +91-9217648824.
 
 *General information only; not investment advice. Verify details with official sources.*
 
@@ -88,7 +88,7 @@ Explore more: See the [luxury builder floors in Emaar Marbella, Sector 65 Gurugr
 
 **Why it matters for Golf Course Extension Road:** A ₹4,000-crore Grade A+ office campus on the corridor itself, fresh developer capital targeting Gurugram and a metro network moving to its next phase all strengthen the case for living close to work in Sectors 58–67.
 
-Explore more: See the [luxury builder floors in Emaar Marbella, Sector 65 Gurugram](/emaar-marbella-builder-floors-gurugram), read our [Golf Course Extension Road area guide](/golf-course-extension-road-gurugram-guide), or book a private site visit via WhatsApp on +91-9611235897.
+Explore more: See the [luxury builder floors in Emaar Marbella, Sector 65 Gurugram](/emaar-marbella-builder-floors-gurugram), read our [Golf Course Extension Road area guide](/golf-course-extension-road-gurugram-guide), or book a private site visit via WhatsApp on +91-9217648824.
 
 *General information only; not investment advice. Verify details with official sources.*
 
@@ -104,7 +104,7 @@ Explore more: See the [luxury builder floors in Emaar Marbella, Sector 65 Gurugr
 
 **Why it matters for Golf Course Extension Road:** A Grade A+ office tower on the corridor itself brings more top employers right next door, while fresh approvals, construction starts and new civic works show developers and the state are investing in Gurugram's growth.
 
-Explore more: See the [luxury builder floors at Emaar Marbella](/emaar-marbella-builder-floors-gurugram), Sector 65–66, Golf Course Extension Road, or book a private site visit via [WhatsApp on +91-9611235897](https://wa.me/919611235897). New to the area? Read our [Golf Course Extension Road area guide](/golf-course-extension-road-gurugram-guide).
+Explore more: See the [luxury builder floors at Emaar Marbella](/emaar-marbella-builder-floors-gurugram), Sector 65–66, Golf Course Extension Road, or book a private site visit via [WhatsApp on +91-9217648824](https://wa.me/919217648824). New to the area? Read our [Golf Course Extension Road area guide](/golf-course-extension-road-gurugram-guide).
 
 *General information only; not investment advice. Verify details with official sources.*
 
@@ -122,7 +122,7 @@ Explore more: See the [luxury builder floors at Emaar Marbella](/emaar-marbella-
 
 **Why it matters for Golf Course Extension Road:** India's biggest developer is adding land on the corridor while office demand hits record highs, a clear sign of confidence in Gurugram's premium micro-markets.
 
-Explore more: See the [luxury builder floors at Emaar Marbella, Sector 65–66, Golf Course Extension Road](/emaar-marbella-builder-floors-gurugram), or book a private site visit via WhatsApp on +91-9611235897.
+Explore more: See the [luxury builder floors at Emaar Marbella, Sector 65–66, Golf Course Extension Road](/emaar-marbella-builder-floors-gurugram), or book a private site visit via WhatsApp on +91-9217648824.
 
 *General information only; not investment advice. Verify details with official sources.*
 
@@ -138,6 +138,6 @@ Explore more: See the [luxury builder floors at Emaar Marbella, Sector 65–66, 
 
 **Why it matters for Golf Course Extension Road:** Sell-outs on the SPR corridor, big developers lining up new launches on the road itself, and a new elevated SPR link all point the same way: Golf Course Extension Road is fast becoming one of Gurugram’s most sought-after luxury addresses.
 
-Explore more: See the [luxury builder floors at Emaar Marbella, Sector 65–66, Golf Course Extension Road](/), or book a private site visit via WhatsApp on +91-9611235897.
+Explore more: See the [luxury builder floors at Emaar Marbella, Sector 65–66, Golf Course Extension Road](/), or book a private site visit via WhatsApp on +91-9217648824.
 
 *General information only; not investment advice. Verify details with official sources.*

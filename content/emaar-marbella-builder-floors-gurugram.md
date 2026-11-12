@@ -25,7 +25,7 @@ Plot 21, Emaar Marbella Phase-II, Sector 65-66, Golf Course Extension Road, Guru
 Only four: one independent floor per level.
 
 **How can I visit the site?**  
-Call or WhatsApp +91-9611235897 to book a private site visit, or meet us at our office at 325 H, Sector 38, Gurugram. Community photos are on [our builder floors home page](/).
+Call or WhatsApp +91-9217648824 to book a private site visit, or meet us at our office at 325 H, Sector 38, Gurugram. Community photos are on [our builder floors home page](/).
 
 **Are prices and floor plans published online?**  
 Project details are shared on request, during a site visit or call.
