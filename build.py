@@ -23,6 +23,7 @@ BIZ = {
     "wa": "https://wa.me/919217648824",
     "wa_visit": "https://wa.me/919217648824?text=Hi%2C%20I%27d%20like%20to%20book%20a%20site%20visit%20for%20the%20builder%20floors%20at%20Emaar%20Marbella%2C%20Gurugram",
     "instagram": "https://www.instagram.com/bhutani_realtors/",
+    "youtube": "https://www.youtube.com/@bhutanirealtors",
     "linkedin": "https://www.linkedin.com/company/bhutani-realtors",
     "review": "https://g.page/r/CShjbtNN5dwYEAI/review",
     "directions": "https://www.google.com/maps/search/?api=1&query=Emaar+Marbella+Sector+66+Golf+Course+Extension+Road+Gurugram",
@@ -88,7 +89,7 @@ def biz_schema():
         "address": {"@type": "PostalAddress", "streetAddress": BIZ["street"], "addressLocality": BIZ["city"],
                     "addressRegion": BIZ["region"], "postalCode": BIZ["pin"], "addressCountry": "IN"},
         "areaServed": ["Gurugram", "Golf Course Extension Road", "Sector 65", "Sector 66"],
-        "sameAs": [BIZ["instagram"], BIZ["linkedin"]],
+        "sameAs": [BIZ["instagram"], BIZ["youtube"], BIZ["linkedin"]],
         "founder": {"@type": "Person", "name": "Varun Bhutani", "url": BIZ["varun"]},
     }
 
@@ -176,7 +177,7 @@ def page(slug, title, description, body, h1, *, schema_extra=None, image=None, k
       <p class="fbrand"><b>BHUTANI</b> REALTORS</p>
       <address>{BIZ['street']}, {BIZ['city']}, {BIZ['region']} {BIZ['pin']}<br>
       Call / WhatsApp: <a href="{BIZ['wa']}">{BIZ['phone']}</a><br>
-      <a href="{BIZ['instagram']}">Instagram @bhutani_realtors</a> · <a href="{BIZ['linkedin']}">LinkedIn</a></address>
+      <a href="{BIZ['instagram']}">Instagram @bhutani_realtors</a> · <a href="{BIZ['youtube']}">YouTube @bhutanirealtors</a> · <a href="{BIZ['linkedin']}">LinkedIn</a></address>
       <p><a href="{BIZ['review']}">Visited us? Review Bhutani Realtors on Google</a></p>
     </div>
     <div>
@@ -314,7 +315,7 @@ def build_home():
       <h2 id="reel">Villa-community living, at a fraction of a villa's price</h2>
       <p>Lit palm avenues, private lanes, peacocks at the garden walls and Emaar's grand gated entry, all on Golf Course Extension Road. Our builder floors at Plot 21 put you inside this community for far less than a villa, and they are rising now.</p>
       <p>Come and see it in person. Message us on WhatsApp with a day that suits you and we will walk you through the community and the site.</p>
-      <p class="cta"><a class="btn wa" href="{BIZ['wa_visit']}" target="_blank" rel="noopener">Book a site visit on WhatsApp</a> <a class="btn ghost-dark" href="{BIZ['instagram']}" target="_blank" rel="noopener">More on Instagram</a></p>
+      <p class="cta"><a class="btn wa" href="{BIZ['wa_visit']}" target="_blank" rel="noopener">Book a site visit on WhatsApp</a> <a class="btn ghost-dark" href="{BIZ['youtube']}" target="_blank" rel="noopener">More on YouTube</a></p>
       <p class="note">Prices and comparisons are indicative; ask us for current details during your visit.</p>
     </div>
   </div>
@@ -381,7 +382,7 @@ def build_home():
 """
     write("", page("", title, desc, body, "Home", schema_extra=[residence_schema(), {"@type": "VideoObject", "name": "Villa life in Emaar Marbella at a fraction of a villa's price | Bhutani Realtors",
                     "description": "18-second video of the Emaar Marbella community on Golf Course Extension Road, Gurugram, and construction at Plot 21. Book a site visit on WhatsApp.",
-                    "thumbnailUrl": DOMAIN + "/assets/video/emaar-marbella-villa-life-reel-poster.jpg", "contentUrl": DOMAIN + "/assets/video/emaar-marbella-villa-life-reel.mp4",
+                    "thumbnailUrl": DOMAIN + "/assets/video/emaar-marbella-villa-life-reel-poster.jpg", "contentUrl": DOMAIN + "/assets/video/emaar-marbella-villa-life-reel.mp4", "embedUrl": "https://www.youtube.com/embed/dIGSEm3RtIQ",
                     "uploadDate": "2026-11-13", "duration": "PT18S", "publisher": {"@id": DOMAIN + "/#business"}},
                    {"@type": "WebSite", "@id": DOMAIN + "/#site", "url": DOMAIN + "/", "name": "Bhutani Realtors",
                     "publisher": {"@id": DOMAIN + "/#business"}, "inLanguage": "en-IN"}], hero=hero))
