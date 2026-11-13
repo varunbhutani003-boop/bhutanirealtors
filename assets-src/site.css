@@ -86,3 +86,10 @@ figure.wide figcaption strong{display:block;font-family:var(--serif);color:var(-
 .club-band{background:linear-gradient(180deg,#fff,var(--paper))}
 .gallery.two-up{grid-template-columns:1fr 1fr;margin:0}
 @media (max-width:760px){.gallery.two-up{grid-template-columns:1fr}}
+
+.reel-band{background:var(--navy);color:#fff}.reel-band h2{color:#fff}.reel-band .eyebrow{color:var(--gold)}.reel-band .note{color:rgba(255,255,255,.65)}
+.reel-band .two{align-items:center}
+.reel-frame{display:flex;justify-content:center}
+.reel-frame video{width:100%;max-width:340px;aspect-ratio:9/16;border-radius:14px;box-shadow:0 18px 50px rgba(0,0,0,.45);background:#000;object-fit:cover}
+.btn.wa{background:#25D366;border-color:#25D366;color:#fff}.btn.wa:hover{background:#1ebe5a;color:#fff}
+.btn.ghost-dark{background:transparent;color:#fff;border-color:rgba(255,255,255,.6)}.btn.ghost-dark:hover{border-color:#fff}

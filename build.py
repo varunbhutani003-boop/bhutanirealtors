@@ -304,6 +304,22 @@ def build_home():
   </div>
 </section>
 
+<section class="band reel-band" aria-labelledby="reel">
+  <div class="wrap two">
+    <div class="reel-frame">
+      <video src="/assets/video/emaar-marbella-villa-life-reel.mp4" poster="/assets/video/emaar-marbella-villa-life-reel-poster.jpg" autoplay muted loop playsinline controls preload="metadata" aria-label="Short video: life inside Emaar Marbella and construction at Plot 21"></video>
+    </div>
+    <div>
+      <p class="eyebrow">Watch · 18 seconds</p>
+      <h2 id="reel">Villa-community living, at a fraction of a villa's price</h2>
+      <p>Lit palm avenues, private lanes, peacocks at the garden walls and Emaar's grand gated entry, all on Golf Course Extension Road. Our builder floors at Plot 21 put you inside this community for far less than a villa, and they are rising now.</p>
+      <p>Come and see it in person. Message us on WhatsApp with a day that suits you and we will walk you through the community and the site.</p>
+      <p class="cta"><a class="btn wa" href="{BIZ['wa_visit']}" target="_blank" rel="noopener">Book a site visit on WhatsApp</a> <a class="btn ghost-dark" href="{BIZ['instagram']}" target="_blank" rel="noopener">More on Instagram</a></p>
+      <p class="note">Prices and comparisons are indicative; ask us for current details during your visit.</p>
+    </div>
+  </div>
+</section>
+
 <section class="band club-band" aria-labelledby="club">
   <div class="wrap two">
     <div>
@@ -363,7 +379,10 @@ def build_home():
   </div>
 </section>
 """
-    write("", page("", title, desc, body, "Home", schema_extra=[residence_schema(),
+    write("", page("", title, desc, body, "Home", schema_extra=[residence_schema(), {"@type": "VideoObject", "name": "Villa life in Emaar Marbella at a fraction of a villa's price | Bhutani Realtors",
+                    "description": "18-second video of the Emaar Marbella community on Golf Course Extension Road, Gurugram, and construction at Plot 21. Book a site visit on WhatsApp.",
+                    "thumbnailUrl": DOMAIN + "/assets/video/emaar-marbella-villa-life-reel-poster.jpg", "contentUrl": DOMAIN + "/assets/video/emaar-marbella-villa-life-reel.mp4",
+                    "uploadDate": "2026-11-13", "duration": "PT18S", "publisher": {"@id": DOMAIN + "/#business"}},
                    {"@type": "WebSite", "@id": DOMAIN + "/#site", "url": DOMAIN + "/", "name": "Bhutani Realtors",
                     "publisher": {"@id": DOMAIN + "/#business"}, "inLanguage": "en-IN"}], hero=hero))
     return title, desc
