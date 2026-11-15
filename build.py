@@ -63,6 +63,8 @@ CITY = [
 INTERIOR = ("illustrative-builder-floor-interior", "Space to make your own",
             "Illustrative interior styling only, not the actual unit, its finishes or specifications (photo: Spl Interiors / Unsplash)")
 PROGRESS = [
+    ("plot-21-basement-raft-column-steel-12-nov-2026", "12 November 2026", "Basement raft with column and retaining-wall steel and shuttering at Plot 21, Emaar Marbella, Gurugram"),
+    ("golf-course-extension-road-towers-from-plot-21", "12 November 2026", "High-rise towers on Golf Course Extension Road seen from the Plot 21 site in Emaar Marbella, Sector 65-66"),
     ("plot-21-bhoomi-pujan-4-nov-2026", "4 November 2026", "Bhoomi Pujan at Plot 21"),
     ("plot-21-emaar-marbella-basement-excavation", "October 2026", "Basement excavation at Plot 21"),
 ]
@@ -90,7 +92,6 @@ def biz_schema():
                     "addressRegion": BIZ["region"], "postalCode": BIZ["pin"], "addressCountry": "IN"},
         "areaServed": ["Gurugram", "Golf Course Extension Road", "Sector 65", "Sector 66"],
         "sameAs": [BIZ["instagram"], BIZ["youtube"], BIZ["linkedin"]],
-        "founder": {"@type": "Person", "name": "Varun Bhutani", "url": BIZ["varun"]},
     }
 
 
@@ -117,7 +118,7 @@ def page(slug, title, description, body, h1, *, schema_extra=None, image=None, k
     if kind == "article":
         graph.append({"@type": "Article", "headline": h1, "description": description, "image": img,
                       "dateModified": TODAY, "mainEntityOfPage": url, "inLanguage": "en-IN",
-                      "author": {"@type": "Person", "name": "Varun Bhutani", "url": BIZ["varun"]},
+                      "author": {"@id": DOMAIN + "/#business"},
                       "publisher": {"@id": DOMAIN + "/#business"}})
     ld = json.dumps({"@context": "https://schema.org", "@graph": graph}, ensure_ascii=False, indent=1)
     here = "/" + slug
@@ -182,8 +183,7 @@ def page(slug, title, description, body, h1, *, schema_extra=None, image=None, k
     </div>
     <div>
       <p class="fhead">Explore</p>
-      <ul>{''.join(f'<li><a href="{h}">{esc(t)}</a></li>' for h, t in NAV[1:])}
-      <li><a href="{BIZ['varun']}">About Varun Bhutani</a></li></ul>
+      <ul>{''.join(f'<li><a href="{h}">{esc(t)}</a></li>' for h, t in NAV[1:])}</ul>
     </div>
     <div>
       <p class="fhead">Plot 21, Emaar Marbella Phase-II</p>
@@ -233,7 +233,7 @@ def write(slug, content):
 
 
 def fig(name, title, cap, cls=""):
-    return (f'<figure class="{cls}"><img src="{IMG}{name}.webp" alt="{esc(cap)}" loading="lazy">'
+    return (f'<figure class="{cls}"><img src="{IMG}{name}.webp" alt="{esc(cap)}" loading="lazy" decoding="async">'
             f'<figcaption><strong>{esc(title)}</strong> {esc(cap)}</figcaption></figure>')
 
 

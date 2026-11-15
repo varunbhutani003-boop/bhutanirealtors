@@ -4,6 +4,10 @@
 
 This page follows the construction of four independent luxury builder floors on Plot 21, Emaar Marbella Phase-II, Sector 65–66, Gurugram, on Golf Course Extension Road. Every photo here is taken on our own site. New updates are added at the top.
 
+### 12 November 2026: Basement columns and retaining-wall shuttering
+
+The basement floor is now in place across the plot. Reinforcement cages for the basement columns are standing, and steel shuttering with props has been set up along the basement retaining walls so they can be concreted. From the site you can see the high-rise towers of Golf Course Extension Road beyond the boundary.
+
 ### 5 November 2026: Basement retaining-wall reinforcement
 
 Steel reinforcement for the basement retaining walls is being tied along the brick shuttering, ahead of concreting.
@@ -21,7 +25,7 @@ Excavation for the basement was carried out across the plot.
 For buyers following our luxury builder floors in Emaar Marbella, this is the usual sequence of work for a building with a basement, stilt parking and four floors, like ours on Plot 21. Timings are not fixed, and we will add each stage to this page with real photos from the site as it happens.
 - Excavation and site preparation (done, October 2026)
 - Bhoomi Pujan and foundation PCC (done, 4 November 2026)
-- Basement retaining walls and foundation (in progress)
+- Basement retaining walls and columns (in progress, November 2026)
 - Basement roof slab, followed by the stilt parking level
 - Floor slabs for the four floors and the terrace
 - Brickwork, with plumbing and electrical conduits
@@ -33,6 +37,6 @@ Before you buy, see our [builder floor buying checklist for Gurugram](/builder-f
 
 See the progress for yourself. [Book a site visit on WhatsApp (+91-9217648824)](https://wa.me/919217648824?text=Hi%2C%20I%27d%20like%20to%20book%20a%20site%20visit%20at%20Emaar%20Marbella%20Plot%2021) or follow [@bhutani_realtors on Instagram](https://www.instagram.com/bhutani_realtors/) for reels from the site.
 
-Read more: [Emaar Marbella builder floors in Sector 65–66, Gurugram](/emaar-marbella-builder-floors-gurugram) · [Golf Course Extension Road area guide](/golf-course-extension-road-gurugram-guide) · [About Varun Bhutani](https://www.millenniumchambers.in/varun-bhutani-advocate-gurugram) · [Gurugram Property Pulse: latest Golf Course Extension Road news](/property-pulse) · [Bhutani Realtors home](/)
+Read more: [Emaar Marbella builder floors in Sector 65–66, Gurugram](/emaar-marbella-builder-floors-gurugram) · [Golf Course Extension Road area guide](/golf-course-extension-road-gurugram-guide) · [Gurugram Property Pulse: latest Golf Course Extension Road news](/property-pulse) · [Bhutani Realtors home](/)
 
 Photos show work in progress on the plot and are not a depiction of finished units.

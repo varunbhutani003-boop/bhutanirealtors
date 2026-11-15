@@ -30,7 +30,7 @@ Emaar Marbella is a gated villa community on Golf Course Extension Road in Secto
 
 ## Buying a builder floor on Golf Course Extension Road
 
-Independent builder floors on Golf Course Extension Road are found inside plotted, gated communities such as Emaar Marbella, so each family gets a whole floor of its own with the security and clubs of the wider community. Before buying any builder floor in Gurugram, check the title and sanctioned building plan, the occupation certificate status, and what share of land, parking and terrace comes with the floor; our [builder floor buying checklist for Gurugram](/builder-floor-buying-checklist-gurugram) walks through each step. [About Varun Bhutani](https://www.millenniumchambers.in/varun-bhutani-advocate-gurugram)
+Independent builder floors on Golf Course Extension Road are found inside plotted, gated communities such as Emaar Marbella, so each family gets a whole floor of its own with the security and clubs of the wider community. Before buying any builder floor in Gurugram, check the title and sanctioned building plan, the occupation certificate status, and what share of land, parking and terrace comes with the floor; our [builder floor buying checklist for Gurugram](/builder-floor-buying-checklist-gurugram) walks through each step.
 
 Want to see the location for yourself? Book a site visit on WhatsApp: +91-9217648824, or visit our office at 325H, Sector 38, Gurugram. Explore photos of the gated community on our [luxury builder floors home page](/).
 

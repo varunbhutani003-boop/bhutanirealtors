@@ -16,6 +16,17 @@ Emaar Marbella is a gated, landscaped Emaar community with lamp-lit, tree-lined 
 
 The photos at the top of this page were taken inside Emaar Marbella, Sector 65, Golf Course Extension Road: sculpted topiary, wide lawns and shaded lanes between the villas, and the peacocks that roam the community's gardens. It is the kind of everyday calm that is hard to find this close to Gurugram's office towers. To explore the wider neighbourhood, read our [Golf Course Extension Road area guide](/golf-course-extension-road-gurugram-guide).
 
+## Sector 65 and Sector 66, Gurugram: what is nearby
+
+Emaar Marbella spans Sectors 65 and 66 on Golf Course Extension Road, one of Gurugram's newest residential and office corridors. Within a short drive of the community:
+- **Homes:** Golf Estate and Trump Towers sit right next to Emaar Marbella in Sector 65.
+- **Offices:** the M3M IFC office complex is listed in Sector 66, part of a growing belt of Grade A offices along the road. See our [Golf Course Extension Road area guide](/golf-course-extension-road-gurugram-guide) for the wider office picture.
+- **Hospitality:** Hilton Gurugram Baani City Centre, a 223-room hotel in Sector 63, opened in December 2024 (Hilton, 16 December 2024).
+- **Metro:** the Rapid Metro station at Sector 55–56 serves the area today, and a metro extension from Sector 56 towards Pachgaon has been proposed along this belt.
+- **Airport and city:** Golf Course Extension Road links to Sohna Road, Golf Course Road and NH-48 for Cyber City and Delhi airport.
+
+Our four independent builder floors are on Plot 21 inside Emaar Marbella Phase-II, so you get a quiet, gated, park-facing address with this neighbourhood around it. Follow the build on our [construction progress page](/emaar-marbella-builder-floors-construction-progress).
+
 ## Frequently asked questions
 
 **Where is the project?**  
