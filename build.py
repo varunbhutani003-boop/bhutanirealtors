@@ -152,6 +152,8 @@ def page(slug, title, description, body, h1, *, schema_extra=None, image=None, k
 <script type="application/ld+json">
 {ld}
 </script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NY04BKSM5C"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag('js',new Date());gtag('config','G-NY04BKSM5C');</script>
 </head>
 <body class="{'home' if slug == '' else 'inner'}">
 <a class="skip" href="#main">Skip to main content</a>
