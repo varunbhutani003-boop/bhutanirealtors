@@ -383,7 +383,7 @@ def build_home():
     write("", page("", title, desc, body, "Home", schema_extra=[residence_schema(), {"@type": "VideoObject", "name": "Villa life in Emaar Marbella at a fraction of a villa's price | Bhutani Realtors",
                     "description": "18-second video of the Emaar Marbella community on Golf Course Extension Road, Gurugram, and construction at Plot 21. Book a site visit on WhatsApp.",
                     "thumbnailUrl": DOMAIN + "/assets/video/emaar-marbella-villa-life-reel-poster.jpg", "contentUrl": DOMAIN + "/assets/video/emaar-marbella-villa-life-reel.mp4", "embedUrl": "https://www.youtube.com/embed/dIGSEm3RtIQ",
-                    "uploadDate": "2026-11-13", "duration": "PT18S", "publisher": {"@id": DOMAIN + "/#business"}},
+                    "uploadDate": "2026-11-13T00:00:00+05:30", "duration": "PT18S", "publisher": {"@id": DOMAIN + "/#business"}},
                    {"@type": "WebSite", "@id": DOMAIN + "/#site", "url": DOMAIN + "/", "name": "Bhutani Realtors",
                     "publisher": {"@id": DOMAIN + "/#business"}, "inLanguage": "en-IN"}], hero=hero))
     return title, desc
