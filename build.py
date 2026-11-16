@@ -4,7 +4,8 @@
 Content lives in content/<slug>.md (first line '# Title'); page metadata in pages.json.
 Run: python3 build.py   (needs: pip install markdown)
 """
-import json, os, re, html, datetime
+import json
+import re, os, re, html, datetime
 import markdown
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
@@ -426,7 +427,23 @@ def main():
     for slug, meta in pages.items():
         titles[slug] = build_inner(slug, meta)
     build_extras(pages, titles)
+    add_trailing_slashes(pages)
     print(f"built {len(pages) + 1} pages")
+
+
+def add_trailing_slashes(pages):
+    """GitHub Pages serves /slug/ and 301-redirects /slug to it. Every canonical, sitemap entry,
+    schema URL and internal link must point at the final /slug/ address, or Google reports the
+    pages as 'Page with redirect' and leaves them out of the index."""
+    pat = re.compile(r'/(' + "|".join(map(re.escape, pages)) + r')(?=["\'<)#?\s])')
+    for dirpath, _, files in os.walk(OUT):
+        for f in files:
+            if f.endswith((".html", ".xml", ".txt")):
+                fp = os.path.join(dirpath, f)
+                txt = open(fp).read()
+                new = pat.sub(r'/\1/', txt)
+                if new != txt:
+                    open(fp, "w").write(new)
 
 
 if __name__ == "__main__":
