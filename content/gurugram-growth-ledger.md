@@ -1,6 +1,6 @@
-# Gurugram Property Pulse
+# Gurugram Growth Ledger
 
-## Gurugram Property Pulse — 09 Nov 2026: A ₹325-Crore Cyber City Flyover, a Sector 59 Launch on Track and Global Luxury Retail Arrives
+## Gurugram Growth Ledger — 09 Nov 2026: A ₹325-Crore Cyber City Flyover, a Sector 59 Launch on Track and Global Luxury Retail Arrives
 
 **1. DLF awards ₹325 crore contract for a new Cyber City flyover.** DLF has awarded a contract worth about ₹325 crore for a flyover from the Sirhaul border towards Cyber City, alongside the Delhi–Gurugram Expressway, with four underpasses linking Moulsari Avenue to the Delhi-bound carriageway and to DLF developments. The project has Haryana government and NHAI approval; building is planned over about 18 months once the traffic management plan is cleared. Source: [Construction World, 9 Nov 2026](https://www.constructionworld.in/transport-infrastructure/highways-and-roads-infrastructure/dlf-awards-rs-3.25-bn-contract-for-cyber-city-flyover/100093)
 
@@ -14,7 +14,7 @@ Explore more: See the [luxury builder floors in Emaar Marbella, Sector 65 Gurugr
 
 *General information only; not investment advice. Verify details with official sources.*
 
-## Gurugram Property Pulse — 07 Nov 2026: DLF Puts ₹3,750 Crore Behind IREO and a Golf Course Road Home Tops ₹140 Crore
+## Gurugram Growth Ledger — 07 Nov 2026: DLF Puts ₹3,750 Crore Behind IREO and a Golf Course Road Home Tops ₹140 Crore
 
 **1. DLF and Everstone sign up to invest in IREO.** DLF and Singapore’s Everstone Group have signed binding term sheets to form a joint venture that will invest in IREO’s India companies, with DLF putting in about ₹3,750 crore for a majority stake in the JV. The JV will take at least 20% of the IREO companies (about 40% economic interest), and the partners cite development opportunities in Delhi, Gurugram and other regions; closing is expected in 2027, subject to approvals. Source: [Business Standard, 6 Nov 2026](https://www.business-standard.com/companies/news/dlf-everstone-jv-ireo-investment-rs-3750-crore-126110600511_1.html)
 
@@ -24,7 +24,7 @@ Explore more: See the [luxury builder floors in Emaar Marbella, Sector 65 Gurugr
 
 *General information only; not investment advice. Verify details with official sources.*
 
-## Gurugram Property Pulse — 06 Nov 2026: NCR Home Values Up 10%, Signature Global Swings to Profit and a 500-Bed Hospital for Gurugram
+## Gurugram Growth Ledger — 06 Nov 2026: NCR Home Values Up 10%, Signature Global Swings to Profit and a 500-Bed Hospital for Gurugram
 
 **1. NCR home values up 10% as sales and launches keep climbing.** JLL's latest residential data shows Delhi-NCR sold 30,242 homes in January–September 2026, up 8% year-on-year, while launches rose 9% to 33,032 homes and capital values were up 10% in the July–September quarter. Across the top seven cities, homes priced ₹1.5–3 crore were the fastest-growing segment, with sales up 54%. Source: [BW Businessworld, 5 Nov 2026](https://www.businessworld.in/article/premium-housing-accounts-for-72-of-sales-grows-23-in-jan-sep-report-632242)
 
@@ -36,7 +36,7 @@ Explore more: See the [luxury builder floors in Emaar Marbella, Sector 65 Gurugr
 
 *General information only; not investment advice. Verify details with official sources.*
 
-## Gurugram Property Pulse — 05 Nov 2026: A ₹3,500-Crore Landmark Tower on Golf Course Extension Road, New Flyovers and Fresh SPR Investment
+## Gurugram Growth Ledger — 05 Nov 2026: A ₹3,500-Crore Landmark Tower on Golf Course Extension Road, New Flyovers and Fresh SPR Investment
 
 **1. Pioneer Urban unveils Alura, a ₹3,500-crore ultra-luxury address in Sector 62.** On 3 November, Pioneer Urban launched Alura: about 250 serviced residences in two towers on 6.99 acres inside Pioneer District on Golf Course Extension Road, designed by Skidmore, Owings & Merrill, with an East Tower rising about 200 metres. The developer expects sales realisation of over ₹9,000 crore and is targeting completion in Q2 2031. Source: [Business Standard, 3 Nov 2026](https://www.business-standard.com/companies/news/pioneer-urban-launches-3-500-cr-ultra-luxury-housing-project-in-gurugram-126110302035_1.html)
 
@@ -50,7 +50,7 @@ Explore more: See the [luxury builder floors in Emaar Marbella, Sector 65 Gurugr
 
 *General information only; not investment advice. Verify details with official sources.*
 
-## Gurugram Property Pulse — 03 Nov 2026: A Signal-Free Sohna Corridor, Easier Expressway Commutes and Rising Buyer Demand
+## Gurugram Growth Ledger — 03 Nov 2026: A Signal-Free Sohna Corridor, Easier Expressway Commutes and Rising Buyer Demand
 
 **1. Centre clears a ₹340-crore elevated corridor at Sohna Chowk.** Union Road Transport Minister Nitin Gadkari has announced approval for a 2.75 km, six-lane elevated corridor at the NH-919/NH-248A junction at Sohna Chowk, costing ₹340.78 crore. It will separate Gurugram–Nuh through traffic from local traffic for signal-free movement and improve links to the Delhi–Mumbai and KMP expressways. Source: [The Tribune, 2 Nov 2026](https://tribuneindia.com/news/haryana/gadkari-clears-rs-826-cr-highway-projects-in-haryana-rajasthan); [Swarajya, 1 Nov 2026](https://swarajyamag.com/news-brief/six-lane-elevated-corridor-worth-34078-crore-approved-for-nh-919-and-nh-248a-intersection-in-nuh)
 
@@ -62,7 +62,7 @@ Explore more: See the [luxury builder floors in Emaar Marbella, Sector 65 Gurugr
 
 *General information only; not investment advice. Verify details with official sources.*
 
-## Gurugram Property Pulse — 02 Nov 2026: Lodha Arrives on Golf Course Road, NCR Prices Lead the Country and Offices Fill Fast
+## Gurugram Growth Ledger — 02 Nov 2026: Lodha Arrives on Golf Course Road, NCR Prices Lead the Country and Offices Fill Fast
 
 **1. Lodha makes its NCR debut with a Grade A++ office tower on Golf Course Road.** Mumbai's Lodha Developers has launched Lodha Pantheon, a 27-storey office project with about 4 lakh sq ft of saleable space on a 1.2-acre site, an investment of roughly ₹1,100–1,200 crore. The company says early customer response is good and it plans a residential launch on Sohna Road later this financial year. Source: [Business Standard, 2 Nov 2026](https://www.business-standard.com/finance/personal-finance/lodha-enters-ncr-with-rs-1-200-cr-office-project-plans-sohna-road-launch-126110200152_1.html)
 
@@ -76,7 +76,7 @@ Explore more: See the [luxury builder floors in Emaar Marbella, Sector 65 Gurugr
 
 *General information only; not investment advice. Verify details with official sources.*
 
-## Gurugram Property Pulse — 1 Nov 2026: A ₹15,000-Crore Landmark Plan, a Lamborghini Build Contract and Metro Phase 2 Bids
+## Gurugram Growth Ledger — 1 Nov 2026: A ₹15,000-Crore Landmark Plan, a Lamborghini Build Contract and Metro Phase 2 Bids
 
 **1. Landmark Group unveils a ₹15,000-crore NCR growth plan.** The Gurugram-based developer has acquired a land parcel of more than 22 acres directly on Dwarka Expressway for a proposed ₹11,000-crore integrated luxury destination (five-star hotel, branded serviced apartments and premium residences), alongside a ₹4,000-crore Grade A+ corporate office development on Golf Course Extension Road. Source: [Hindustan Times, 30 Oct 2026](https://www.hindustantimes.com/real-estate/landmark-group-plans-15-000-crore-ncr-expansion-eyes-branded-residences-on-dwarka-expressway-101793351495799.html)
 
@@ -92,7 +92,7 @@ Explore more: See the [luxury builder floors in Emaar Marbella, Sector 65 Gurugr
 
 *General information only; not investment advice. Verify details with official sources.*
 
-## Gurugram Property Pulse — 31 Oct 2026: New Approvals, Construction Starts and a Grade A+ Office Tower on GCER
+## Gurugram Growth Ledger — 31 Oct 2026: New Approvals, Construction Starts and a Grade A+ Office Tower on GCER
 
 **1. Anant Raj gets HRERA nod for a luxury Gurugram project.** Anant Raj says its luxury residential project, The Estate One, has received Haryana RERA registration, with about 1.22 million sq ft of potential built-up area, and is set to launch soon. The developer is also expanding its Haryana data-centre business towards a 357 MW target by FY32. Source: [Business Standard, 28 Oct 2026](https://www.business-standard.com/companies/news/anant-raj-gets-rera-nod-for-gurugram-project-eyes-357-mw-data-centres-126102801342_1.html)
 
@@ -108,7 +108,7 @@ Explore more: See the [luxury builder floors at Emaar Marbella](/emaar-marbella-
 
 *General information only; not investment advice. Verify details with official sources.*
 
-## Gurugram Property Pulse — 30 Oct 2026: Big Builders, Record Offices, New Roads
+## Gurugram Growth Ledger — 30 Oct 2026: Big Builders, Record Offices, New Roads
 
 **1. DLF grows its Golf Course Extension Road land bank to about 36 acres.** DLF has tied up a further 7.48 acres in Sector 61, next to the 28 acres it secured in 2024, to build a housing project. The deal is due to close by March; launch timing and cost have not been announced. Source: [Construction World, 23 Oct 2026](https://www.constructionworld.in/latest-construction-news/real-estate-news/dlf-adds-7.48-acres-to-gurugram-luxury-housing-parcel/99204)
 
@@ -126,7 +126,7 @@ Explore more: See the [luxury builder floors at Emaar Marbella, Sector 65–66, 
 
 *General information only; not investment advice. Verify details with official sources.*
 
-## Gurugram Property Pulse — 29 Oct 2026
+## Gurugram Growth Ledger — 29 Oct 2026
 
 **1. Lamborghini-branded homes on SPR: phase one sold out.** Signature Global says the first phase of its Tonino Lamborghini-branded residences in Sector 71 on the Southern Peripheral Road (part of SG SPR Estate, about 812 homes across two phases) sold out in under three months, and phase two is being readied. A 25-acre commercial district with RMZ is planned in the same estate. Source: [Business Standard, 27 Oct 2026](https://www.business-standard.com/finance/personal-finance/6-5-cr-for-a-tonino-lamborghini-home-gurugram-project-sells-out-1st-phase-126102701062_1.html)
 

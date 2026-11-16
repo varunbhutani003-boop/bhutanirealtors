@@ -42,7 +42,7 @@ Call or WhatsApp +91-9217648824 to book a private site visit, or meet us at our 
 Project details are shared on request, during a site visit or call.
 
 **What is new on Golf Course Extension Road?**  
-Read our weekly [Gurugram Property Pulse](/property-pulse) for the latest launches, infrastructure and market news for Gurugram and Golf Course Extension Road.
+Read our weekly [Gurugram Growth Ledger](/gurugram-growth-ledger) for the latest launches, infrastructure and market news for Gurugram and Golf Course Extension Road.
 
 **How is construction progressing?**  
 Work is under way on our plot, from the Bhoomi Pujan on 4 November 2026 to basement retaining-wall reinforcement. See dated updates and real photos on our [Emaar Marbella builder floors construction progress page.](/emaar-marbella-builder-floors-construction-progress)

@@ -28,7 +28,7 @@ An independent builder floor is one home per floor in a low-rise building on a p
 
 ### Builder floors in Emaar Marbella
 
-Emaar Marbella is a gated villa community in Sectors 65–66 on Golf Course Extension Road, close to Golf Estate and the area's growing office and retail corridor. Read more: [luxury builder floors in Emaar Marbella, Sector 65 Gurugram](/emaar-marbella-builder-floors-gurugram) · [Golf Course Extension Road area guide](/golf-course-extension-road-gurugram-guide) · [site progress at Emaar Marbella (photos)](/emaar-marbella-builder-floors-construction-progress) · [Gurugram Property Pulse](/property-pulse).
+Emaar Marbella is a gated villa community in Sectors 65–66 on Golf Course Extension Road, close to Golf Estate and the area's growing office and retail corridor. Read more: [luxury builder floors in Emaar Marbella, Sector 65 Gurugram](/emaar-marbella-builder-floors-gurugram) · [Golf Course Extension Road area guide](/golf-course-extension-road-gurugram-guide) · [site progress at Emaar Marbella (photos)](/emaar-marbella-builder-floors-construction-progress) · [Gurugram Growth Ledger](/gurugram-growth-ledger).
 
 Book a site visit on WhatsApp: [+91-9217648824](https://wa.me/919217648824) · Office: 325H, Sector 38, Gurugram · Instagram: [@bhutani_realtors](https://www.instagram.com/bhutani_realtors/)
 

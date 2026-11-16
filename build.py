@@ -39,7 +39,7 @@ NAV = [
     ("/emaar-marbella-builder-floors-construction-progress", "Site Progress"),
     ("/golf-course-extension-road-gurugram-guide", "Area Guide"),
     ("/builder-floor-buying-checklist-gurugram", "Buyer Checklist"),
-    ("/property-pulse", "Property Pulse"),
+    ("/gurugram-growth-ledger", "Growth Ledger"),
 ]
 
 IMG = "/assets/img/"
@@ -269,9 +269,9 @@ def build_inner(slug, meta):
 
 
 def latest_pulse():
-    t = open(os.path.join(ROOT, "content", "property-pulse.md")).read()
-    m = re.search(r"^## (Gurugram Property Pulse[^\n]*)", t, flags=re.M)
-    return m.group(1) if m else "Gurugram Property Pulse"
+    t = open(os.path.join(ROOT, "content", "gurugram-growth-ledger.md")).read()
+    m = re.search(r"^## (Gurugram Growth Ledger[^\n]*)", t, flags=re.M)
+    return m.group(1) if m else "Gurugram Growth Ledger"
 
 
 def build_home():
@@ -375,7 +375,7 @@ def build_home():
       <p><a class="more" href="{BIZ['directions']}">Get directions in Google Maps</a> · <a class="more" href="/golf-course-extension-road-gurugram-guide">Golf Course Extension Road area guide</a></p>
       <h3>Latest from Gurugram</h3>
       <p>{esc(pulse)}</p>
-      <p><a class="more" href="/property-pulse">Read the Gurugram Property Pulse</a> · <a class="more" href="/builder-floor-buying-checklist-gurugram">Builder floor buying checklist</a></p>
+      <p><a class="more" href="/gurugram-growth-ledger">Read the Gurugram Growth Ledger</a> · <a class="more" href="/builder-floor-buying-checklist-gurugram">Builder floor buying checklist</a></p>
     </div>
     <div class="map"><iframe title="Map of Emaar Marbella, Golf Course Extension Road, Gurugram" src="{BIZ['map_embed']}" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
   </div>
@@ -407,6 +407,12 @@ def build_extras(pages, titles):
     open(os.path.join(OUT, "llms.txt"), "w").write("\n".join(lines) + "\n")
     open(os.path.join(OUT, ".nojekyll"), "w").write("")
     open(os.path.join(OUT, "CNAME"), "w").write("www.bhutanirealtors.in\n")
+    # the weekly news page was renamed from /property-pulse/ on 16 Nov 2026; keep the old address forwarding
+    os.makedirs(os.path.join(OUT, "property-pulse"), exist_ok=True)
+    open(os.path.join(OUT, "property-pulse", "index.html"), "w").write(
+        f'<!doctype html><meta charset="utf-8"><title>Gurugram Growth Ledger | Bhutani Realtors</title>'
+        f'<link rel="canonical" href="{DOMAIN}/gurugram-growth-ledger/"><meta name="robots" content="noindex">'
+        f'<meta http-equiv="refresh" content="0; url=/gurugram-growth-ledger/"><a href="/gurugram-growth-ledger/">Continue to the Gurugram Growth Ledger</a>')
     # the old Google Site used /home
     os.makedirs(os.path.join(OUT, "home"), exist_ok=True)
     open(os.path.join(OUT, "home", "index.html"), "w").write(
