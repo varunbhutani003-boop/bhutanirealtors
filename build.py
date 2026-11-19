@@ -39,6 +39,7 @@ NAV = [
     ("/emaar-marbella-builder-floors-construction-progress", "Site Progress"),
     ("/golf-course-extension-road-gurugram-guide", "Area Guide"),
     ("/builder-floor-buying-checklist-gurugram", "Buyer Checklist"),
+    ("/nri-property-management-gurugram", "NRI Property Care"),
     ("/gurugram-growth-ledger", "Growth Ledger"),
 ]
 
@@ -404,7 +405,7 @@ def build_extras(pages, titles):
     open(os.path.join(OUT, "robots.txt"), "w").write(f"User-agent: *\nAllow: /\n\nSitemap: {DOMAIN}/sitemap.xml\n")
     lines = ["# Bhutani Realtors", "",
              "> Gurugram real-estate firm (325 H, Sector 38, Gurugram, Haryana 122001) offering four independent luxury builder "
-             "floors on Plot 21, Emaar Marbella Phase-II, Sectors 65-66, Golf Course Extension Road, Gurugram. "
+             "floors on Plot 21, Emaar Marbella Phase-II, Sectors 65-66, Golf Course Extension Road, Gurugram, and NRI property management (tenants, rent tracking, taxes, dues and repairs) in Gurugram. "
              f"Site visits: call or WhatsApp {BIZ['phone']}.", "", "## Key pages", ""]
     for s, m in pages.items():
         lines.append(f"- [{titles[s]}]({DOMAIN}/{s}): {m['description']}")
