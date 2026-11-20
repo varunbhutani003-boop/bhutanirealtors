@@ -23,6 +23,8 @@ BIZ = {
     "tel": "+919217648824",
     "wa": "https://wa.me/919217648824",
     "wa_visit": "https://wa.me/919217648824?text=Hi%2C%20I%27d%20like%20to%20book%20a%20site%20visit%20for%20the%20builder%20floors%20at%20Emaar%20Marbella%2C%20Gurugram",
+    "wa_general": "https://wa.me/919217648824?text=Hi%20Bhutani%20Realtors%2C%20I%27m%20looking%20for%20help%20with%20a%20property%20in%20Gurugram",
+    "wa_dev": "https://wa.me/919217648824?text=Hi%20Bhutani%20Realtors%2C%20we%20are%20a%20developer%20and%20would%20like%20to%20discuss%20a%20channel%20partnership",
     "instagram": "https://www.instagram.com/bhutani_realtors/",
     "youtube": "https://www.youtube.com/@bhutanirealtors",
     "linkedin": "https://www.linkedin.com/company/bhutani-realtors",
@@ -35,7 +37,8 @@ BIZ = {
 
 NAV = [
     ("/", "Home"),
-    ("/emaar-marbella-builder-floors-gurugram", "The Floors"),
+    ("/real-estate-services-gurugram", "Services"),
+    ("/emaar-marbella-builder-floors-gurugram", "Exclusive Mandate"),
     ("/emaar-marbella-builder-floors-construction-progress", "Site Progress"),
     ("/golf-course-extension-road-gurugram-guide", "Area Guide"),
     ("/builder-floor-buying-checklist-gurugram", "Buyer Checklist"),
@@ -96,7 +99,11 @@ def biz_schema():
         "logo": DOMAIN + "/assets/apple-touch-icon.png",
         "address": {"@type": "PostalAddress", "streetAddress": BIZ["street"], "addressLocality": BIZ["city"],
                     "addressRegion": BIZ["region"], "postalCode": BIZ["pin"], "addressCountry": "IN"},
-        "areaServed": ["Gurugram", "Golf Course Extension Road", "Sector 65", "Sector 66"],
+        "description": "Gurugram real-estate agency: resale and rental brokerage, plots and builder floors, new launches with developers, commercial leasing, NRI property management, and legal-backed transactions.",
+        "areaServed": ["Gurugram", "Golf Course Extension Road", "Southern Peripheral Road", "Golf Course Road", "Sohna Road", "Dwarka Expressway", "New Gurugram"],
+        "knowsAbout": ["Resale property Gurugram", "Rental property Gurugram", "Builder floors Gurugram", "Residential plots Gurugram", "New launches Gurugram", "Commercial property Gurugram", "NRI property management"],
+        "makesOffer": [{"@type": "Offer", "itemOffered": {"@type": "Service", "name": n, "areaServed": "Gurugram"}} for n in
+                       ["Resale property brokerage", "Rental and leasing", "Plots and builder floors", "New launches and developer channel partnership", "Commercial property", "NRI Property Care"]],
         "sameAs": [BIZ["instagram"], BIZ["youtube"], BIZ["linkedin"]],
     }
 
@@ -175,9 +182,9 @@ def page(slug, title, description, body, h1, *, schema_extra=None, image=None, k
 </main>
 <section class="cta-band" aria-labelledby="visit">
   <div class="wrap">
-    <h2 id="visit">Book a private site visit</h2>
-    <p>Only four homes will ever be available here. Call or WhatsApp to arrange a visit.</p>
-    <p class="cta"><a class="btn" href="#" onclick="brVisit(true);return false">Request a site visit</a> <a class="btn ghost" href="{BIZ['wa_visit']}">WhatsApp {BIZ['phone']}</a> <a class="btn ghost" href="tel:{BIZ['tel']}">Call now</a> <a class="btn ghost" href="{BIZ['directions']}">Get directions</a></p>
+    <h2 id="visit">Buying, selling, renting or investing in Gurugram?</h2>
+    <p>Tell us what you are looking for. One call, and a team that knows the city street by street takes it from there.</p>
+    <p class="cta"><a class="btn" href="{BIZ['wa_general']}">WhatsApp {BIZ['phone']}</a> <a class="btn ghost" href="tel:{BIZ['tel']}">Call now</a> <a class="btn ghost" href="#" onclick="brVisit(true);return false">Visit our exclusive mandate</a> <a class="btn ghost" href="/real-estate-services-gurugram">All services</a></p>
   </div>
 </section>
 <footer class="site">
@@ -194,8 +201,10 @@ def page(slug, title, description, body, h1, *, schema_extra=None, image=None, k
       <ul>{''.join(f'<li><a href="{h}">{esc(t)}</a></li>' for h, t in NAV[1:])}</ul>
     </div>
     <div>
-      <p class="fhead">Plot 21, Emaar Marbella Phase-II</p>
-      <p>Sector 65–66, Golf Course Extension Road, Gurugram. Four independent luxury builder floors, construction under way.</p>
+      <p class="fhead">What we do</p>
+      <p>Resale · Rentals · Plots &amp; builder floors · New launches with developers · Commercial · NRI Property Care · Legal-backed transactions, across Gurugram.</p>
+      <p class="fhead">Exclusive mandate</p>
+      <p>Four independent luxury floors, Emaar Marbella Phase-II, Golf Course Extension Road. <a href="/emaar-marbella-builder-floors-gurugram">Details</a></p>
     </div>
   </div>
   <div class="wrap fine">{esc(DISCLAIMER)}</div>
@@ -282,15 +291,15 @@ def latest_pulse():
 
 
 def build_home():
-    title = "Luxury Builder Floors in Emaar Marbella, Golf Course Extension Road, Gurugram | Bhutani Realtors"
-    desc = ("Four independent luxury builder floors on a park-facing corner plot in Emaar Marbella, Sectors 65-66, "
-            "Golf Course Extension Road, Gurugram. Gated community next to Golf Estate. Book a private site visit.")
+    title = "Bhutani Realtors | Gurugram Property: Resale, Rentals, Plots, New Launches, NRI Care"
+    desc = ("Gurugram real-estate agency for resale, rentals, plots and builder floors, new launches with developers, commercial "
+            "property and NRI property management. Exclusive mandate: luxury builder floors in Emaar Marbella, Golf Course Extension Road.")
     hero = f"""<section class="hero" style="background-image:linear-gradient(90deg,rgba(10,20,40,.88),rgba(10,20,40,.45)),url({IMG}emaar-marbella-palm-avenue-gurugram.webp)">
   <div class="wrap">
-    <p class="eyebrow">Luxury builder floors · Golf Course Extension Road</p>
-    <h1>Where Gurugram's leaders will live</h1>
-    <p class="lead">Four exclusive independent floors on a park-facing corner plot inside Emaar Marbella, a gated community in Sectors 65–66, Gurugram. Moments from Golf Estate and the city's newest corporate corridor, this is a rare chance to own one of only four homes in the building.</p>
-    <p class="cta"><a class="btn" href="#" onclick="brVisit(true);return false">Book a site visit</a> <a class="btn ghost" href="/emaar-marbella-builder-floors-gurugram">Project details &amp; FAQs</a></p>
+    <p class="eyebrow">Gurugram real estate · End to end</p>
+    <h1>Gurugram property, handled the way it should be</h1>
+    <p class="lead">Resale and rentals, plots and builder floors, new launches with the city's developers, commercial space and property care for owners abroad. A family practice that has built, bought and sold in Gurugram, with every transaction checked by a practising advocate before you sign.</p>
+    <p class="cta"><a class="btn" href="{BIZ['wa_general']}">Talk to us on WhatsApp</a> <a class="btn ghost" href="/real-estate-services-gurugram">What we do</a> <a class="btn ghost" href="/emaar-marbella-builder-floors-gurugram">Our exclusive mandate</a></p>
   </div>
 </section>"""
     feats = [
@@ -304,12 +313,53 @@ def build_home():
     feat_html = "".join(f"<li><h3>{esc(a)}</h3><p>{esc(b)}</p></li>" for a, b in feats)
     gal = "".join(fig(*g) for g in GALLERY)
     pulse = latest_pulse()
+    services = [
+        ("Resale", "Verified sellers, clean title and a fair price. Apartments, floors and plots across Gurugram.", "/real-estate-services-gurugram#resale"),
+        ("Rentals &amp; leasing", "Tenant search, police verification, agreements and renewals for owners; good homes for tenants.", "/real-estate-services-gurugram#rentals"),
+        ("Plots &amp; builder floors", "Plotted colonies and independent floors on Golf Course Extension Road, SPR and New Gurugram.", "/real-estate-services-gurugram#plots"),
+        ("New launches", "Channel partner to Gurugram's developers: launch allocations, project selection and booking support.", "/real-estate-services-gurugram#launches"),
+        ("Commercial", "Offices, retail and SCO plots along Golf Course Extension Road and the Southern Peripheral Road.", "/real-estate-services-gurugram#commercial"),
+        ("NRI Property Care", "Tenants, rent, taxes, dues and repairs for your Gurugram home while you live abroad.", "/nri-property-management-gurugram"),
+    ]
+    svc_html = "".join(f'<li><h3><a href="{h}">{a}</a></h3><p>{b}</p></li>' for a, b, h in services)
     body = f"""
-<section class="band" aria-labelledby="res">
+<section class="band" aria-labelledby="svc">
   <div class="wrap">
-    <h2 id="res">The residences</h2>
+    <p class="eyebrow">What we do</p>
+    <h2 id="svc">One team for everything property in Gurugram</h2>
+    <p class="sub">Buying, selling, renting, investing or managing from abroad. Legal checks are part of the service, not an add-on.</p>
+    <ul class="feats services">{svc_html}</ul>
+    <p><a class="more" href="/real-estate-services-gurugram">See all services</a> · <a class="more" href="/builder-floor-buying-checklist-gurugram">Buyer checklist</a></p>
+  </div>
+</section>
+
+<section class="band alt mandate" aria-labelledby="res">
+  <div class="wrap">
+    <p class="eyebrow"><span class="badge">Exclusive mandate</span> Emaar Marbella Phase-II · Golf Course Extension Road</p>
+    <h2 id="res">Four independent luxury floors, sold only through us</h2>
+    <p class="sub">Bhutani Realtors holds the exclusive mandate for this building: every enquiry, visit and booking comes through our team, so you deal with the people who know the project from the foundation up.</p>
     <ul class="feats">{feat_html}</ul>
-    <p><a class="more" href="/emaar-marbella-builder-floors-gurugram">Project details &amp; FAQs</a> · <a class="more" href="/emaar-marbella-builder-floors-construction-progress">Construction progress (site photos)</a></p>
+    <p class="cta"><a class="btn" href="#" onclick="brVisit(true);return false">Book a private site visit</a> <a class="btn ghost-navy" href="/emaar-marbella-builder-floors-gurugram">Project details &amp; FAQs</a> <a class="btn ghost-navy" href="/emaar-marbella-builder-floors-construction-progress">Construction progress</a></p>
+  </div>
+</section>
+
+<section class="band dev-band" aria-labelledby="dev">
+  <div class="wrap two">
+    <div>
+      <p class="eyebrow">For developers</p>
+      <h2 id="dev">We work hand in hand with Gurugram's developers</h2>
+      <p>Every big launch has the same quiet problem: the buyer is ready, but the person explaining the project to them is not. We bring developers fewer, better-qualified walk-ins, paperwork that does not come back, and buyers who understand what they are signing.</p>
+      <p>We have been on both sides of the table. We have built, we have bought, and we have sat with buyers long after the brochure is closed. Documentation, title and RERA checks are handled in-house by a practising advocate, so your sales desk spends its time selling.</p>
+      <p class="cta"><a class="btn" href="{BIZ['wa_dev']}" target="_blank" rel="noopener">Discuss a channel partnership</a> <a class="btn ghost-navy" href="/real-estate-services-gurugram#developers">How we work with developers</a></p>
+    </div>
+    <div>
+      <ul class="checks">
+        <li><strong>Channel partner onboarding</strong> with KYC and documents ready the same day.</li>
+        <li><strong>Qualified buyers</strong> from Golf Course Extension Road, SPR, Sohna Road and New Gurugram, plus NRI clients we already manage property for.</li>
+        <li><strong>Clean closings:</strong> agreement-to-sell, allotment and registration paperwork reviewed before it reaches you.</li>
+        <li><strong>Honest feedback</strong> from site visits, so the project is pitched the way buyers actually hear it.</li>
+      </ul>
+    </div>
   </div>
 </section>
 
@@ -406,8 +456,9 @@ def build_extras(pages, titles):
     open(os.path.join(OUT, "sitemap.xml"), "w").write("\n".join(sm) + "\n")
     open(os.path.join(OUT, "robots.txt"), "w").write(f"User-agent: *\nAllow: /\n\nSitemap: {DOMAIN}/sitemap.xml\n")
     lines = ["# Bhutani Realtors", "",
-             "> Gurugram real-estate firm (325 H, Sector 38, Gurugram, Haryana 122001) offering four independent luxury builder "
-             "floors on Plot 21, Emaar Marbella Phase-II, Sectors 65-66, Golf Course Extension Road, Gurugram, and NRI property management (tenants, rent tracking, taxes, dues and repairs) in Gurugram. "
+             "> Gurugram real-estate agency (325 H, Sector 38, Gurugram, Haryana 122001): resale and rental brokerage, residential plots and builder floors, "
+             "new launches with developers (channel partner), commercial property, NRI property management, and legal-backed transactions. Exclusive mandate: four independent luxury builder "
+             "floors on Plot 21, Emaar Marbella Phase-II, Sectors 65-66, Golf Course Extension Road, Gurugram. "
              f"Site visits: call or WhatsApp {BIZ['phone']}.", "", "## Key pages", ""]
     for s, m in pages.items():
         lines.append(f"- [{titles[s]}]({DOMAIN}/{s}): {m['description']}")

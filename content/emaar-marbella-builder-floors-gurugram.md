@@ -1,4 +1,8 @@
-# Emaar Marbella Builder Floors
+# Emaar Marbella Builder Floors: Our Exclusive Mandate
+
+## Sold only through Bhutani Realtors
+
+This building is Bhutani Realtors' exclusive mandate. There is no other broker, listing or sales office for these four floors: every enquiry, site visit and booking comes through our team, which has been involved from the purchase of the plot to the steel going into the basement today. That means straight answers on documents, timelines and specifications from the people who actually know, and no competing quotes for the same unit. Alongside this mandate we offer [resale, rentals, plots, new launches and NRI property care](/real-estate-services-gurugram) across Gurugram.
 
 ## Inside Emaar Marbella: tree-lined internal roads
 
