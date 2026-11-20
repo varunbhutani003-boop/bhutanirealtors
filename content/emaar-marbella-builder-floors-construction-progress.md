@@ -6,7 +6,7 @@ This page follows the construction of four independent luxury builder floors on 
 
 ### 12 November 2026: Basement columns and retaining-wall shuttering
 
-The basement floor is now in place across the plot. Reinforcement cages for the basement columns are standing, and steel shuttering with props has been set up along the basement retaining walls so they can be concreted. From the site you can see the high-rise towers of Golf Course Extension Road beyond the boundary. Two new photos from the same day show the full basement floor with its column cages and the timber-and-steel shuttering for the retaining walls, and the gap between the excavated soil face and the retaining-wall steel along one edge of the plot.
+The basement floor is now in place across the plot. Reinforcement cages for the basement columns are standing, and steel shuttering with props has been set up along the basement retaining walls so they can be concreted. From the site you can see the high-rise towers of Golf Course Extension Road beyond the boundary. Two new photos from the same day show the full basement floor with its column cages and the timber-and-steel shuttering for the retaining walls, and the gap between the excavated soil face and the retaining-wall steel along one edge of the plot. Two more photos added on 20 November show the column reinforcement cages standing on the basement floor with the starter bars for the retaining wall in front of them, and the full run of retaining-wall shuttering along the plot edge, where the excavated soil face has been covered with sheeting to protect it until the walls are cast.
 
 ### 5 November 2026: Basement retaining-wall reinforcement
 

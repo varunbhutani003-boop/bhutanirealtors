@@ -1,5 +1,19 @@
 # Gurugram Growth Ledger
 
+## Gurugram Growth Ledger — 20 Nov 2026: Elevated SPR Bids Close and NCR Luxury Prices Have Doubled in Five Years
+
+**1. Elevated Southern Peripheral Road: phase 1 bids were due by 18 November.** GMDA's tender for the first phase of the elevated SPR covers a 4.23 km corridor from Vatika Chowk to the Dwarka Expressway cloverleaf on the Delhi–Gurugram Expressway, at an estimated Rs 776 crore, on an EPC contract with completion planned within 30 months of the award. GMDA's chief engineer has described four elevated lanes in each direction between Vatika Chowk and NH-48, with service roads below. An earlier Rs 755 crore tender was scrapped in June after the state government sought changes. Two further phases, an interchange at Vatika Chowk and an 8.5 km elevated stretch towards Ghata, are at the project-report stage.
+
+**2. NCR housing prices have more than doubled since 2021.** ANAROCK data cited on 19 November puts the average quoted base selling price in NCR at about Rs 9,980 per sq ft in Q3 2026, against about Rs 4,600 per sq ft in Q3 2021. Developers quoted in the same report named Golf Course Extension Road, the SPR, Dwarka Expressway and New Gurugram as corridors gaining from new roads and social infrastructure.
+
+**3. Bakhtawar Chowk double-decker flyover-metro awaits a design settlement.** The planned structure at Bakhtawar Chowk, an approximately 800 m six-lane flyover with the Gurugram Metro viaduct above it on shared piers, is waiting for GMDA's no-objection certificate while GMDA and Gurugram Metro Rail Limited settle where the piers go, so that a future underpass towards Medanta can still be built (PropNewsTime, updated 27 Oct 2026).
+
+**Why it matters for Golf Course Extension Road:** The SPR meets Golf Course Extension Road in south Gurugram, so a signal-free elevated SPR towards NH-48 and the Dwarka Expressway would shorten the drive from Sectors 65–66 to the airport side of the city. Read more in our [Golf Course Extension Road area guide](/golf-course-extension-road-gurugram-guide).
+
+Explore more: See the [luxury builder floors in Emaar Marbella, Sector 65 Gurugram](/emaar-marbella-builder-floors-gurugram), follow the [Plot 21 construction progress](/emaar-marbella-builder-floors-construction-progress), or book a private site visit via WhatsApp on +91-9217648824.
+
+*General information only; not investment advice. Verify details with official sources. Sources: Swarajya (3 Oct 2026, GMDA tender); India TV News (19 Nov 2026, citing ANAROCK); PropNewsTime (updated 27 Oct 2026).*
+
 ## Gurugram Growth Ledger — 17 Nov 2026: Max Estates' ₹4,000-Crore Bungalows Get HARERA Nod on GCER, and Greater SPR Land Compensation Moves Ahead
 
 **1. Max Estates' "The Bungalows" in Sector 59 is HARERA-registered.** Max Estates has received Haryana RERA registration (granted 6 November 2026) for The Bungalows, a luxury project on about 7.25 acres in Sector 59, near Golf Course Extension Road. It has 243 residences in two towers, an estimated gross development value of about ₹4,000 crore, and homes handed over as bare shells so buyers can design their own interiors. Morphogenesis is the architect. This is the Sector 59 launch the company had said was on track for the October–December quarter. Source: [Business Standard, 15 Nov 2026](https://www.business-standard.com/companies/news/max-estates-gets-harera-nod-for-4-000-crore-luxury-project-in-gurugram-126111500417_1.html)

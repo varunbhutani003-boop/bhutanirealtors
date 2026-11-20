@@ -8,7 +8,7 @@ Golf Course Extension Road (GCER) is one of Gurugram's main residential and comm
 
 ### Roads
 
-GCER connects with Golf Course Road and the Southern Peripheral Road. An elevated corridor on SPR, from Vatika Chowk towards NH-48, is at the tender stage, which is expected to ease travel across south Gurugram.
+GCER connects with Golf Course Road and the Southern Peripheral Road. An elevated corridor on SPR, from Vatika Chowk towards NH-48, is at the tender stage, which is expected to ease travel across south Gurugram. The Gurugram Metropolitan Development Authority (GMDA) tendered phase 1 of the elevated SPR in October 2026: a 4.23 km, four-lanes-each-way corridor from Vatika Chowk to the Dwarka Expressway cloverleaf on the Delhi–Gurugram Expressway, estimated at about Rs 776 crore, with bids due by 18 November 2026 and construction planned within 30 months of the award. GMDA has said a grade-separated interchange at Vatika Chowk (phase 2) and an 8.5 km elevated stretch towards Ghata (phase 3) are being planned (Swarajya, 3 Oct 2026). For residents of Sectors 65–66, the SPR is the main link from Golf Course Extension Road to Sohna Road and NH-48.
 
 ### Metro
 
