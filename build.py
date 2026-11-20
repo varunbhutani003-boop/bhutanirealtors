@@ -149,7 +149,7 @@ def page(slug, title, description, body, h1, *, schema_extra=None, image=None, k
 <meta name="robots" content="index, follow, max-image-preview:large">
 <meta name="theme-color" content="#14213d">
 <meta property="og:type" content="{'article' if kind == 'article' else 'website'}">
-<meta property="og:site_name" content="Bhutani Realtors">
+<meta property="og:site_name" content="Bhutani Realtors | Gurugram Property">
 <meta property="og:title" content="{esc(title)}">
 <meta property="og:description" content="{esc(description)}">
 <meta property="og:url" content="{url}">
@@ -171,7 +171,7 @@ def page(slug, title, description, body, h1, *, schema_extra=None, image=None, k
 <a class="skip" href="#main">Skip to main content</a>
 <header class="site">
   <div class="wrap bar">
-    <a class="brand" href="/" aria-label="Bhutani Realtors home"><span class="mark" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M3 11 12 4l9 7" fill="none" stroke="currentColor" stroke-width="2"/><path d="M6 10v9h12v-9" fill="none" stroke="currentColor" stroke-width="2"/></svg></span><span class="bn"><b>BHUTANI</b> REALTORS</span></a>
+    <a class="brand" href="/" aria-label="Bhutani Realtors home"><span class="mark" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M3 11 12 4l9 7" fill="none" stroke="currentColor" stroke-width="2"/><path d="M6 10v9h12v-9" fill="none" stroke="currentColor" stroke-width="2"/></svg></span><span class="bn"><b>BHUTANI</b> REALTORS <small class="tag">Gurugram Property</small></span></a>
     <button class="menu" aria-expanded="false" aria-controls="nav" onclick="var n=document.getElementById('nav');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o)">Menu</button>
     <nav id="nav" aria-label="Main">{nav}</nav>
   </div>
@@ -190,7 +190,7 @@ def page(slug, title, description, body, h1, *, schema_extra=None, image=None, k
 <footer class="site">
   <div class="wrap cols">
     <div>
-      <p class="fbrand"><b>BHUTANI</b> REALTORS</p>
+      <p class="fbrand"><b>BHUTANI</b> REALTORS</p><p class="ftag">Real estate agency · Gurugram Property</p>
       <address>{BIZ['street']}, {BIZ['city']}, {BIZ['region']} {BIZ['pin']}<br>
       Call / WhatsApp: <a href="{BIZ['wa']}">{BIZ['phone']}</a><br>
       <a href="{BIZ['instagram']}">Instagram @bhutani_realtors</a> · <a href="{BIZ['youtube']}">YouTube @bhutanirealtors</a> · <a href="{BIZ['linkedin']}">LinkedIn</a></address>
@@ -442,7 +442,7 @@ def build_home():
                     "description": "18-second video of the Emaar Marbella community on Golf Course Extension Road, Gurugram, and construction at Plot 21. Book a site visit on WhatsApp.",
                     "thumbnailUrl": DOMAIN + "/assets/video/emaar-marbella-villa-life-reel-poster.jpg", "contentUrl": DOMAIN + "/assets/video/emaar-marbella-villa-life-reel.mp4", "embedUrl": "https://www.youtube.com/embed/dIGSEm3RtIQ",
                     "uploadDate": "2026-11-13T00:00:00+05:30", "duration": "PT18S", "publisher": {"@id": DOMAIN + "/#business"}},
-                   {"@type": "WebSite", "@id": DOMAIN + "/#site", "url": DOMAIN + "/", "name": "Bhutani Realtors",
+                   {"@type": "WebSite", "@id": DOMAIN + "/#site", "url": DOMAIN + "/", "name": "Bhutani Realtors | Gurugram Property", "alternateName": "Bhutani Realtors",
                     "publisher": {"@id": DOMAIN + "/#business"}, "inLanguage": "en-IN"}], hero=hero))
     return title, desc
 
