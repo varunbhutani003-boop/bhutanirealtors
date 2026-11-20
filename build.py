@@ -65,6 +65,8 @@ CITY = [
 INTERIOR = ("illustrative-builder-floor-interior", "Space to make your own",
             "Illustrative interior styling only, not the actual unit, its finishes or specifications (photo: Spl Interiors / Unsplash)")
 PROGRESS = [
+    ("plot-21-basement-column-cages-formwork-12-nov-2026", "12 November 2026", "Basement floor of the Plot 21 builder floor site with column reinforcement cages, retaining-wall formwork and starter bars, Emaar Marbella, Sector 65, Gurugram"),
+    ("plot-21-retaining-wall-shuttering-along-plot-edge-12-nov-2026", "12 November 2026", "Retaining-wall steel and timber shuttering running along the plot edge, with the soil face covered in sheeting, at Plot 21, Emaar Marbella Phase-II, Golf Course Extension Road"),
     ("plot-21-basement-raft-retaining-wall-formwork-12-nov-2026", "12 November 2026", "Full basement floor of Plot 21 with column steel cages and retaining-wall shuttering, Emaar Marbella, Sector 65-66, Gurugram"),
     ("plot-21-basement-retaining-wall-column-steel-12-nov-2026", "12 November 2026", "Retaining-wall reinforcement and shuttering beside the excavated soil face at the Plot 21 builder floor site, Emaar Marbella, Golf Course Extension Road"),
     ("plot-21-basement-raft-column-steel-12-nov-2026", "12 November 2026", "Basement raft with column and retaining-wall steel and shuttering at Plot 21, Emaar Marbella, Gurugram"),
