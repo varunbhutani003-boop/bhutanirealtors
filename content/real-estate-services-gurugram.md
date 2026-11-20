@@ -20,7 +20,7 @@ Plotted colonies and independent builder floors are where much of Gurugram's val
 
 ## New launches with developers {#launches}
 
-We work as a channel partner to Gurugram's developers. That means early visibility of launches, help choosing between projects on the basis of approvals, developer track record and location rather than brochures, and support through allotment, payment plans and the builder-buyer agreement. You pay the developer's price; our job is to make sure you buy the right unit in the right project.
+We work as a channel partner to Gurugram's developers. That means early visibility of launches, help choosing between projects on the basis of approvals, developer track record and location rather than brochures, and support through allotment, payment plans and the builder-buyer agreement. Our job is to make sure you buy the right unit in the right project.
 
 ## Commercial property {#commercial}
 
@@ -46,9 +46,6 @@ Every big launch has the same quiet problem: the buyer is ready, but the person 
 Developers and channel-sales teams can reach us on WhatsApp at +91 92176 48824 or through the contact details below.
 
 ## Frequently asked questions
-
-**Do you charge buyers a fee on new launches?**
-No. On developer projects you pay the developer's listed price; we are paid by the developer as a channel partner.
 
 **Which parts of Gurugram do you cover?**
 All of Gurugram, with the deepest experience on Golf Course Extension Road, Golf Course Road, the Southern Peripheral Road, Sohna Road and the Sector 65–66 belt where our own project is.
